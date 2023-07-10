@@ -1,4 +1,8 @@
-<body>
-    {# templates/main.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container">
     <h1>Ваше счастливое число - {{ number }}</h1>
-</body>
+</div>
+
+{% endblock %}
