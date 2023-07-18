@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *, 
 *:before, 
 *:after {
@@ -14,7 +18,7 @@ body {
 }
 
 header {
-    background-color:#3f4356;
+
 }
 
 main {
